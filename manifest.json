@@ -1,15 +1,55 @@
-{name: "HalthTips", short_name: "halthtips", description: "yoga,ayurveda,foods",…}
-background_color: "##fffdfc"
-description: "yoga,ayurveda,foods"
-display: "fullscreen"
-icons: [{src: "https://blogger.googleusercontent.com/img/a/AVvXsEgUEEYWaT0-WOnPzTTUM7hc1T0Ea_IRXX9B7JhkzsoU-KhKuQkSSUzYZ8X6ag0ewX9y4SksGc4fOc0AuDf1Tyq2JH6euPKdks4HVX4cHj2B6NFQAC-3HpLMIxLjRcmRpVC6UWqDzaBMMsdT0XWbtKsTNFjjsRGqn7O30QJQc7QRxicf0IdjUo5YAN9M_A", sizes: "192x192",…},…]
-0: {src: "https://blogger.googleusercontent.com/img/a/AVvXsEgUEEYWaT0-WOnPzTTUM7hc1T0Ea_IRXX9B7JhkzsoU-KhKuQkSSUzYZ8X6ag0ewX9y4SksGc4fOc0AuDf1Tyq2JH6euPKdks4HVX4cHj2B6NFQAC-3HpLMIxLjRcmRpVC6UWqDzaBMMsdT0XWbtKsTNFjjsRGqn7O30QJQc7QRxicf0IdjUo5YAN9M_A", sizes: "192x192",…}
-1: {src: "https://blogger.googleusercontent.com/img/a/AVvXsEid5QTs-3xRGISMG-p7KQuYYPhIGXhyrjZ_qIn4d9c6iH_EuVdOPiDomPjxiGOz-SR9Nn5fkuQ8HD0b9FIFGI83DWdg5_hOkiNlfs6GJ_mCQE5mmr_8JKsM6qzTb3-Mxq9E7Cy1w9tbi6eyUlMB1NS7ASJVSZrnMzfhte2hc8CtNSDQJXds-FYyMhTizw=s320", sizes: "512x512",…}
-name: "HalthTips"
-orientation: "portrait"
-scope: "/"
-short_name: "HalthTips"
-shortcuts: [{name: "HalthTips", short_name: "HalthTips", description: "HalthTips", url: "/",…}]
-0: {name: "HalthTips", short_name: "HalthTips", description: "HalthTips", url: "/",…}
-start_url: "."
-theme_color: "#2e7b32"
+{
+  "short_name": "Weather",
+  "name": "Weather: Do I need an umbrella?",
+  "icons": [
+    {
+      "src": "/images/icons-vector.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "How's weather today?",
+      "short_name": "Today",
+      "description": "View weather information for today",
+      "url": "/today?source=pwa",
+      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "How's weather tomorrow?",
+      "short_name": "Tomorrow",
+      "description": "View weather information for tomorrow",
+      "url": "/tomorrow?source=pwa",
+      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Weather forecast information",
+  "screenshots": [
+    {
+      "src": "/images/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  ]
+}
