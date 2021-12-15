@@ -1,4 +1,4 @@
-{name: "HalthTips", short_name: "HalthTips", description: "yoga,ayurveda,foods",…}
+{name: "HalthTips", short_name: "halthtips", description: "yoga,ayurveda,foods",…}
 background_color: "##fffdfc"
 description: "yoga,ayurveda,foods"
 display: "fullscreen"
