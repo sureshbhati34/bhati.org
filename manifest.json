@@ -15,26 +15,27 @@
   ],
   "start_url": "https://www.bhati.org",
   "background_color": "#3367D6",
+   "display_override": ["window-control-overlay", "minimal-ui"],
   "display": "standalone",
   "scope": "/",
   "theme_color": "#3367D6",
   "shortcuts": [
     {
-      "name": "How's weather today?",
-      "short_name": "Today",
-      "description": "View weather information for today",
-      "url": "/today?source=pwa",
-      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      "name": "know your dosha",
+      "short_name": "find dosha",
+      "description": "find your dosha for ayurvedic tritment and your dises knowlage",
+      "url": "/p/dosha_7.html",
+      "icons": [{ "src": "https://blogger.googleusercontent.com/img/a/AVvXsEgUEEYWaT0-WOnPzTTUM7hc1T0Ea_IRXX9B7JhkzsoU-KhKuQkSSUzYZ8X6ag0ewX9y4SksGc4fOc0AuDf1Tyq2JH6euPKdks4HVX4cHj2B6NFQAC-3HpLMIxLjRcmRpVC6UWqDzaBMMsdT0XWbtKsTNFjjsRGqn7O30QJQc7QRxicf0IdjUo5YAN9M_A", "sizes": "192x192" }]
     },
     {
-      "name": "How's weather tomorrow?",
-      "short_name": "Tomorrow",
-      "description": "View weather information for tomorrow",
-      "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+      "name": "what is dosha?",
+      "short_name": "dosha",
+      "description": "dosha kya ha, dosha ko blance kese kare, ayrvedic dosha",
+      "url": "/search/label/dosha",
+      "icons": [{ "src": "https://blogger.googleusercontent.com/img/a/AVvXsEgUEEYWaT0-WOnPzTTUM7hc1T0Ea_IRXX9B7JhkzsoU-KhKuQkSSUzYZ8X6ag0ewX9y4SksGc4fOc0AuDf1Tyq2JH6euPKdks4HVX4cHj2B6NFQAC-3HpLMIxLjRcmRpVC6UWqDzaBMMsdT0XWbtKsTNFjjsRGqn7O30QJQc7QRxicf0IdjUo5YAN9M_A", "sizes": "192x192" }]
     }
   ],
-  "description": "Weather forecast information",
+  "description": "benifit of kapalbhati",
   "screenshots": [
     {
       "src": "/images/screenshot1.png",
