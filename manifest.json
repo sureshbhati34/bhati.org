@@ -1,24 +1,19 @@
 {
-  "short_name": "Weather",
-  "name": "Weather: Do I need an umbrella?",
+  "short_name": "Halth",
+  "name": "Halth: tips in hindi",
   "icons": [
     {
-      "src": "/images/icons-vector.svg",
-      "type": "image/svg+xml",
-      "sizes": "512x512"
-    },
-    {
-      "src": "/images/icons-192.png",
-      "type": "image/png",
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEgUEEYWaT0-WOnPzTTUM7hc1T0Ea_IRXX9B7JhkzsoU-KhKuQkSSUzYZ8X6ag0ewX9y4SksGc4fOc0AuDf1Tyq2JH6euPKdks4HVX4cHj2B6NFQAC-3HpLMIxLjRcmRpVC6UWqDzaBMMsdT0XWbtKsTNFjjsRGqn7O30QJQc7QRxicf0IdjUo5YAN9M_A",
+      "type": "image/webp",
       "sizes": "192x192"
     },
     {
-      "src": "/images/icons-512.png",
-      "type": "image/png",
+      "src": "https://blogger.googleusercontent.com/img/a/AVvXsEid5QTs-3xRGISMG-p7KQuYYPhIGXhyrjZ_qIn4d9c6iH_EuVdOPiDomPjxiGOz-SR9Nn5fkuQ8HD0b9FIFGI83DWdg5_hOkiNlfs6GJ_mCQE5mmr_8JKsM6qzTb3-Mxq9E7Cy1w9tbi6eyUlMB1NS7ASJVSZrnMzfhte2hc8CtNSDQJXds-FYyMhTizw=s320",
+      "type": "image/webp",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?source=pwa",
+  "start_url": "https://www.bhati.org",
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/",
