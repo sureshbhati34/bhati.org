@@ -1,6 +1,6 @@
 {
   "short_name": "Halth",
-  "name": "Halth: tips in hindi",
+  "name": "bhati.org:Halth tips in hindi",
   "icons": [
     {
       "src": "https://blogger.googleusercontent.com/img/a/AVvXsEgUEEYWaT0-WOnPzTTUM7hc1T0Ea_IRXX9B7JhkzsoU-KhKuQkSSUzYZ8X6ag0ewX9y4SksGc4fOc0AuDf1Tyq2JH6euPKdks4HVX4cHj2B6NFQAC-3HpLMIxLjRcmRpVC6UWqDzaBMMsdT0XWbtKsTNFjjsRGqn7O30QJQc7QRxicf0IdjUo5YAN9M_A",
@@ -21,11 +21,11 @@
 	  }
   ],
   "start_url": "https://www.bhati.org/",
-  "background_color": "#3367D6",
+  "background_color": "#2e7b32",
    "display_override": ["window-control-overlay", "minimal-ui"],
   "display": "standalone",
   "scope": "/sw.js",
-  "theme_color": "#3367D6",
+  "theme_color": "#2e7b32",
   "shortcuts": [
     {
       "name": "know your dosha",
